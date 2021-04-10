@@ -56,13 +56,13 @@
         <div class="input">
           <input type="search" placeholder="Search" />
 
-          <i class="fa fa-search"></i>
+          <i class="fa fa-search" aria-hidden="true"></i>
         </div>
         <!-- icon of search -->
 
         <!-- night mode icon -->
         <div class="theme">
-          <i class="fa fa-sun-o fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-moon-o fa-2x" aria-hidden="true"></i>
         </div>
         <!-- user pictures -->
         <div class="user__image">
@@ -73,7 +73,10 @@
 
     <section class="hero__section">
       <!-- image section one -->
-      <article class="background__image animated__page" id="first__image">
+      <article
+        class="background__image animated__page active"
+        id="first__image"
+      >
         <div class="hero__text">
           <h1>
             Looks like You <br />
@@ -88,7 +91,7 @@
         </div>
         <div class="hero__image">
           <object
-            data="./assets/Code typing-bro.svg"
+            data="./assets/Code typing-bro (2).svg"
             type="image/svg+xml"
           ></object>
         </div>
@@ -118,6 +121,106 @@
           ></object>
         </div>
       </article>
+
+      <!-- image section  three -->
+      <article
+        class="background__image second animated__page"
+        id="third__image"
+      >
+        <div class="hero__text">
+          <h1>
+            Looks like You <br />
+            haven't added even <br />
+            one website
+          </h1>
+          <p>
+            We really don't know <br />
+            what to analyse...
+          </p>
+          <a href="#" class="hero__button">add your website</a>
+        </div>
+        <div class="hero__image">
+          <object
+            data="./assets/Schedule-amico.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+      </article>
+
+      <!-- image section four -->
+      <article
+        class="background__image second animated__page"
+        id="fourth__image"
+      >
+        <div class="hero__text">
+          <h1>
+            Looks like You <br />
+            haven't added even <br />
+            one website
+          </h1>
+          <p>
+            We really don't know <br />
+            what to analyse...
+          </p>
+          <a href="#" class="hero__button">add your website</a>
+        </div>
+        <div class="hero__image">
+          <object
+            data="./assets/Documents-bro.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+      </article>
+
+      <!-- image section five -->
+      <article
+        class="background__image second animated__page"
+        id="fifth__image"
+      >
+        <div class="hero__text">
+          <h1>
+            Looks like You <br />
+            haven't added even <br />
+            one website
+          </h1>
+          <p>
+            We really don't know <br />
+            what to analyse...
+          </p>
+          <a href="#" class="hero__button">add your website</a>
+        </div>
+        <div class="hero__image">
+          <object
+            data="./assets/Newsletter-rafiki.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+      </article>
+
+      <!-- image section six -->
+      <article
+        class="background__image second animated__page"
+        id="sixth__image"
+      >
+        <div class="hero__text">
+          <h1>
+            Looks like You <br />
+            haven't added even <br />
+            one website
+          </h1>
+          <p>
+            We really don't know <br />
+            what to analyse...
+          </p>
+          <a href="#" class="hero__button">add your website</a>
+        </div>
+        <div class="hero__image">
+          <object
+            data="./assets/undraw_Analytics_re_dkf8.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+      </article>
     </section>
 
     <!-- toggle button -->
@@ -125,7 +228,7 @@
       <ul class="toggle__container">
         <li data-id="first__image">
           <i class="fa fa-calculator"></i>
-          <span class="cycle__link"></span>
+          <span class="cycle__link hide"></span>
         </li>
         <li data-id="second__image">
           <i class="fa fa-bar-chart"></i>
@@ -139,13 +242,13 @@
           <i class="fa fa-download"></i>
           <span class="cycle__link"></span>
         </li>
-        <li>
+        <li data-id="fifth__image">
           <i class="fa fa-filter"></i>
           <span class="cycle__link"></span>
         </li>
-        <li>
-          <span class="cycle__link"></span>
+        <li data-id="sixth__image">
           <i class="fa fa-clock-o"></i>
+          <span class="cycle__link"></span>
         </li>
         <li>
           <i class="fa fa-external-link"></i>

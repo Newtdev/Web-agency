@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +39,7 @@ li {
 a {
   display: inline-block;
   font-size: 16px;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Noto Serif", serif;
   color: #a986f2;
   transform: translateY(50%);
   text-decoration: none;
@@ -189,7 +191,7 @@ input::placeholder {
 }
 h1,
 p {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Noto Serif", serif;
   line-height: 1.5;
   /* text-align: justify; */
 }
@@ -267,6 +269,10 @@ aside {
 }
 .toggle__container li:nth-child(6) .cycle__link {
   right: -4px;
+}
+
+.toggle__container li:nth-child(7) {
+  margin-top: 50px;
 }
 .hide {
   opacity: 1;
